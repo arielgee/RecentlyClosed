@@ -1,24 +1,24 @@
 
 + Product Page Description (About this extension)
 --------------------------------------------------------------
-<b>Recently Closed</b> is a simple and extremely minimal web extension for a quick access to the Firefox menu items, <span style="border:1px solid #888888">&thinsp;History → Recently Closed Tabs&thinsp;</span> and <span style="border:1px solid #888888">&thinsp;History → Recently Closed Windows&thinsp;</span>.
+<b>Recently Closed</b> is a simple and extremely minimal web extension for a quick access to the Firefox menu items, <code>History → Recently Closed Tabs</code> and <code>History → Recently Closed Windows</code>.
 
 A toolbar button that when clicked reopens the last closed tab or window and a right mouse click on that same button to get access to the list of all recently closed tabs and windows that Firefox stored.
 
-<b><u>At Your Own Risk</u></b>
+<b>― At Your Own Risk ―</b>
 The list of recently closed tabs/windows is saved and managed by the browser (Not this extension!) and can be increased by modifying the following browser preferences.
 <ol>
     <li>browser.sessionstore.max_serialize_back - maximum number of pages from "back" history that can be restored.</li>
     <li>browser.sessionstore.max_tabs_undo - maximum number of closed tabs stored/restorable for each window.</li>
     <li>browser.sessionstore.max_windows_undo - maximum number of closed windows stored/restorable per session.</li>
 </ol>
-――――――――――<br>
-<b><u>Note:</u> I wrote this in a couple of hours, and it's exactly what I need. I'm sure there are existing extensions that offer this exact functionality and with much more options. Shop around if you want or need more.</b>
+――――――――――
+<b>Note: I wrote this in a couple of hours, and it's exactly what I need. I'm sure there are existing extensions that offer this exact functionality and with much more options. Shop around if you want or need more.</b>
 
 
 + Product Page Tags (20 tags)
 --------------------------------------------------------------
-tab, tabs, undo, recycle tab, reopen, undo closed, recently Closed tabs, recently Closed windows, history, closed tab, open closed tab, reopen closed tab, reopen tab, restore tab, closed tab, open closed window, reopen closed window, reopen window, restore window, tab history list
+closed tab, history, open closed tab, open closed window, recently closed tabs, recently closed windows, recycle tab, reopen, reopen closed tab, reopen closed window, reopen tab, reopen window, restore tab, restore window, tab, tab history list, tabs, undo, undo closed
 
 
 + Manage Version - Version Notes
