@@ -3,7 +3,7 @@
 (function () {
 
 	const MENU_ID_PREFIX = "mnuRCT-";
-	const DEFAULT_ICON = "icons/default.svg";			//"moz-icon://.url?size=16";
+	const DEFAULT_ICON = "icons/default.svg";
 	const MAX_MENU_ITEMS_WITHOUT_PARENT_COUNT = 5;
 
 
