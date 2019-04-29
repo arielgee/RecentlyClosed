@@ -1,17 +1,19 @@
 
 + Product Page Description (About this extension)
 --------------------------------------------------------------
-<b>Recently Closed</b> is a simple and extremely minimal web extension for a quick access to the Firefox menu items, <code>History → Recently Closed Tabs</code> and <code>History → Recently Closed Windows</code>.
+<b>Recently Closed</b> is a simple and extremely minimal web extension for a quick access to the Firefox menu items, <code>History&thinsp;&#10132;&thinsp;Recently Closed Tabs</code>&thinsp;&nbsp;and&nbsp;&thinsp;<code>History&thinsp;&#10132;&thinsp;Recently Closed Windows</code>.
 
 A toolbar button that when clicked reopens the last closed tab or window and a right mouse click on that same button to get access to the list of all recently closed tabs and windows that Firefox stored.
 
 <b>― At Your Own Risk ―</b>
 The list of recently closed tabs/windows is saved and managed by the browser (Not this extension!) and can be increased by modifying the following browser preferences.
 <ol>
-    <li>browser.sessionstore.max_serialize_back - maximum number of pages from "back" history that can be restored.</li>
-    <li>browser.sessionstore.max_tabs_undo - maximum number of closed tabs stored/restorable for each window.</li>
-    <li>browser.sessionstore.max_windows_undo - maximum number of closed windows stored/restorable per session.</li>
+    <li>browser.sessionstore.max_serialize_back - maximum number of pages from "back" history that can be restored (default 10).</li>
+    <li>browser.sessionstore.max_tabs_undo - maximum number of closed tabs stored/restorable for each window (default 10).</li>
+    <li>browser.sessionstore.max_windows_undo - maximum number of closed windows stored/restorable per session (default 3).</li>
 </ol>
+<b>Attention:</b> The Mozilla's JavaScript API, <b>sessions​</b>, restricts the number of retrieved recently closed sessions to 25 at the most. So no matter what values are set in the <b>browser.sessionstore.max_*</b> preferences, the number of menu item sessions will never be more than 25.
+
 ――――――――――
 <b>Note: I wrote this in a couple of hours, and it's exactly what I need. I'm sure there are existing extensions that offer this exact functionality and with much more options. Shop around if you want or need more.</b>
 
@@ -32,5 +34,5 @@ First version
 
 <b>Unresolved</b>
 <ul>
-  <li></li>
+  <li>The Mozilla's JavaScript API, <b>sessions​</b>, restricts the number of retrieved recently closed sessions to 25 at the most. So no matter what values are set in the <b>browser.sessionstore.max_*</b> preferences, the number of menu item sessions will never be more than 25.</li>
 </ul>
